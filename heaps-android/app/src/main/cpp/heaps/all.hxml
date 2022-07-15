@@ -1,0 +1,27 @@
+-lib heaps
+-lib castle
+-lib hxbit
+--macro include('h3d')
+--macro include('h2d',true,['h2d.domkit'])
+--macro include('hxsl',true,['hxsl.Macros','hxsl.CacheFile','hxsl.CacheFileBuilder','hxsl.Checker'])
+--macro include('hxd',true,['hxd.res.FileTree','hxd.Res','hxd.impl.BitsBuilder','hxd.impl.Air3File','hxd.fmt.pak.Build','hxd.net.SteamHost','hxd.snd.efx','hxd.snd.openal','hxd.res.Config'])
+--no-output
+-D apicheck
+--each
+
+-js heaps.js
+-xml heaps_js.xml
+
+--next
+
+-hl heaps.hl
+-lib hlsdl
+-lib hlopenal
+-xml heaps_hl.xml
+
+--next
+
+-hl heaps.hl
+-lib hldx
+-lib hlopenal
+-xml heaps_hldx.xml

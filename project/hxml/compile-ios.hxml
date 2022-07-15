@@ -1,0 +1,7 @@
+-D windowSize=960x540
+
+#-D hl_ver=1.12.0
+-D highdpi 
+-D ios
+-D zyheaps
+-main Main

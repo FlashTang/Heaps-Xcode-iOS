@@ -1,0 +1,8 @@
+-cp src
+-lib heaps
+-lib slide
+-D resourcesPath=Assets
+-D highdpi 
+-D ios
+-js ../out/html5/main.js
+-main Main

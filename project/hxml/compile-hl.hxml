@@ -1,0 +1,6 @@
+-D windowSize=960x540
+-D highdpi
+-D mac
+-D zyheaps
+#-lhl iostools.hdll
+-main Main

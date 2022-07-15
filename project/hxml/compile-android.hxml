@@ -1,0 +1,7 @@
+# -hl ../heaps-ios/out/main.c
+-D windowSize=960x540
+-D resourcesPath=Assets
+#-D hl_ver=1.12.0
+-D highdpi 
+-D zyheaps
+-main Main

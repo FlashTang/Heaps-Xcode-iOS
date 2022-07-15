@@ -1,0 +1,5 @@
+-cp src
+-lib heaps
+-lib hlsdl
+-lib slide
+-D resourcesPath=Assets
